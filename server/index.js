@@ -1,5 +1,6 @@
 const app = require('./app');
 const client = require('./db/client');
+require('dotenv').config()
 
 const init = async()=> {
   try {
